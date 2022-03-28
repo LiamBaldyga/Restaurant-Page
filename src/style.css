@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(../dist/images/restaurantbg.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+header {
+    background-color: black;
+    opacity: .9;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+nav button {
+    cursor: pointer;
+    border-style: none;
+    font-size: 1.25rem;
+    background: none;
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.active {
+    transform: scale(1.15);
+    transition-duration: .4s;
+    border-bottom: 2px solid white;
+}
+
+.hero {
+    background-color: black;
+    opacity: .9;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.hero-logo {
+    width: 250px;
+    opacity: 100;
+}
+
+li {
+    list-style: none;
+}
+
+.info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 1.35rem;
+}
+
+.schedule {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.schedule > li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px inset whitesmoke;
+}
+
+.locaiton {
+    padding-bottom: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 50px;
+}
+
+.mHero {
+    background-color: black;
+    opacity: .9;
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite;
+    padding: 50px;
+    gap: 25px;
+}
+
+.burger-head, .sandwich-head, .dinner-head {
+    text-align: center;
+}
+
+.burgers, .sandwiches, .dinner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 50px;
+}
+
+.about-hero {
+    background-color: black;
+    opacity: .9;
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite;
+    padding: 50px;
+    gap: 10px;
+}
