@@ -1,12 +1,13 @@
 import customElement from './index.js';
+import logo from './images/ricos.png';
 
 function home() {
     const home = customElement('div', 'home');
 
      
     const hero = customElement('div', 'hero', home);
-    const heroLogo = customElement('img', 'hero-logo', hero)
-    heroLogo.src = 'images/ricos.png';
+    const heroLogo = customElement('img', 'hero-logo', hero);
+    heroLogo.src = logo;
 
 
     const info = customElement('div', 'info', hero);
