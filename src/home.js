@@ -6,7 +6,7 @@ function home() {
      
     const hero = customElement('div', 'hero', home);
     const heroLogo = customElement('img', 'hero-logo', hero)
-    heroLogo.src = '../dist/images/ricos.png';
+    heroLogo.src = '.images/ricos.png';
 
 
     const info = customElement('div', 'info', hero);
